@@ -90,7 +90,16 @@ footer{
     height: 100px; 
     font-size: 18px;
 }  
+.add{
+    padding: 0 5px;
+} 
+.fa-chevron-up{
+    font-size: 12px;
+}
 
+.fa-share-from-square{
+    color: greenyellow;
+}
 span{
     font-size: 12px;
 }
