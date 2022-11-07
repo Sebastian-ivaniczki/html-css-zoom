@@ -17,8 +17,29 @@
  /*header*/
 header{
     background-color: black;
-    height: 80px;
+    height: 80px; 
+    color: white;
 }
+
+.speaker-wiew { 
+    display: flex;
+    justify-content: end;
+    
+} 
+
+.screen{
+    padding: 5px; 
+    margin: 0 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(58, 56, 56, 0.5);
+} 
+
+.fa-table-cells{
+    margin-right: 2px;
+}
+
+
 /*main*/
   
 main{
