@@ -14,6 +14,16 @@
  min-height: 100%;
 }
 
+/*utilities*/
+.inline-block{
+    display: inline-block;
+} 
+
+.line-c{
+    text-align: center;
+} 
+
+
  /*header*/
 header{
     background-color: black;
@@ -75,6 +85,33 @@ main{
 /*footer*/ 
 
 footer{
-    background-color: lightgray;
-    height: 100px;
+    background-color: darkgray;
+    color: white;
+    height: 100px; 
+    font-size: 18px;
+}  
+
+span{
+    font-size: 12px;
+}
+
+.navbar{
+    height: 100%;
+    
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+} 
+.footright{
+    height: 100%; 
+    
+}
+.end{
+    display: block;
+    width: 80px; 
+    height: 100%; 
+    line-height: 100px;
+    background-color: rgba(58, 56, 56, 0.5); 
+    color: red;
 }
