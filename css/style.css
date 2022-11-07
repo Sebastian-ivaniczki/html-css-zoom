@@ -28,7 +28,9 @@ main{
     color: aliceblue;
 }
  
- 
+ .row{
+    margin: 0 -25px;
+ }
 
 .col{
     display: flex; 
